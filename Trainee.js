@@ -3,7 +3,7 @@ function trainee()
     this.Trainee = [];
     this.insert = function(traineeObj)
     {
-        this.trainee.push(traineeObj)
+        this.Trainee.push(traineeObj)
     }
 
 this.display = function()
@@ -15,7 +15,7 @@ this.delete = function(index)
     this.Trainee.splice(index, 1);
 }
 }
-var obj =new Trainee();
+var obj =new trainee();
 var trainee1 = {name: "Kaushani", email: "cautioni@gmail.com", phoneNo : 8961686073};
 
 var trainee2 = {name: "Chandana", email: "chandana@gmail.com", phoneNo : 8961234676};
